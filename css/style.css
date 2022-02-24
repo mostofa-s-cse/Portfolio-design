@@ -1,0 +1,416 @@
+body{
+    background-color: #111111;
+    color: #fff;
+}
+
+#header-section{
+  padding: 4rem; 
+  background: url("../images/header-bg.jpg");
+  background-size: cover;
+}
+.home .color-block {
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+}
+.header-image {
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 7px rgba(0,0,0,.9);
+    background-color: #030303;
+}
+button.btn {
+    color: #fff;
+    padding: 0px 0px 0px 26px;
+    margin-top: -3px;
+    border-radius: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+button.btn:hover{
+    background-color: #FFB400;
+}
+.button-icon {
+    color: #fff;
+    background-color: #FFB400;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.title-style {
+    width: 3rem;
+    height: 8px;
+    background-color: #ffb400;
+    border-radius: 10px;
+}
+.header-title {
+    margin-left: 75px;
+    margin-top: -29px;
+}
+.title-section{
+    margin-top: 8rem;
+    text-transform: uppercase;
+}
+.title-bg {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: .7;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+    margin-top: -2.4rem;
+}
+.about-main-content{
+    margin-top: 5rem;
+}
+.about-main-content .about-list .title {
+    opacity: .8;
+    text-transform: capitalize;
+}
+.about-main-content .about-list {
+    line-height: 2.5rem;
+    margin-top: 2rem;
+}
+
+.about-main-content .box-stats.with-margin {
+    margin-bottom: 30px;
+}
+.about-main-content .box-stats {
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+}
+
+.about-main-content .box-stats h3:after {
+    content: "+";
+    position: absolute;
+    right: -24px;
+    font-size: 33px;
+    font-weight: 300;
+    top: 2px;
+}
+.about-main-content .box-stats p:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #777;
+}
+.about-main-content .box-stats h3 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffb400;
+}
+.about-main-content .box-stats p {
+    padding-left: 45px;
+}
+hr.separator {
+    border-top: 1px solid #777;
+    margin: 70px auto 55px;
+    max-width: 40%;
+}
+.box {
+    margin-bottom: 3rem;
+}
+.about-main-content .resume-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.about-main-content .resume-box li {
+    position: relative;
+    padding: 0 20px 0 60px;
+    margin: 0 0 50px;
+}
+.about-main-content .resume-box li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    border-left: 1px solid #333;
+}
+.about-main-content .resume-box .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #FFB400;
+}
+
+.single-portfolio {
+	position: relative;
+	overflow: hidden;
+	margin-bottom:2rem;
+	border-radius: .5rem;
+	border: 1px solid black;}
+.portfolio-overlay{
+	position: absolute;
+	height: 100%;
+    width: 100%;
+	background: rgba(3,3,3,0.8);
+	top: -100%;
+  transition: all .5s ease;}
+.work-img {
+    width: 100%;
+    height: 15rem;
+}
+   .portfolio-warkmenu a{
+    margin: .5rem;
+    display: inline-table;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;}
+  .portfolio-warkmenu a:hover{
+    background-color: #FFB400;
+    color: #000;}
+.single-portfolio:hover .portfolio-overlay{
+	top: 0;}
+.portfolio-overlay h3{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;}
+.option {
+	display: flex;
+	margin-left: 7rem;
+	margin-top: 3.5rem;}
+.download {
+	margin-top: 19px;
+	padding: 0.8rem;
+    color: #fff;
+	margin-left: -8.4rem;}
+.demo{
+  margin-top: 32px;}
+.option a{
+      font-weight: bold;
+  }
+.option .icon {
+	font-size: 2.3rem;
+	margin-top: -2.5rem;
+	margin-left: 3rem;}
+.option .icon a{
+  color: #fff;}
+
+
+
+#contact .custom-span-contact {
+    font-weight: 600;
+    padding-left: 50px;
+    line-height: 25px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+#contact .custom-span-contact i {
+    left: 0;
+    top: 10px;
+    font-size: 33px;
+    color: #ffb400;
+}
+#contact .custom-span-contact span {
+    text-transform: uppercase;
+    opacity: .8;
+    font-weight: 400;
+}
+#contact ul.social {
+    margin-left: -5px;
+    padding-top: 15px!important;
+}
+#contact ul.social li {
+    display: inline-block;
+}
+#contact ul.social li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 6px;
+    background: #2b2a2a;
+    border-radius: 50%;
+}
+
+#contact .contactform .form-group {
+    margin-bottom: 30px;
+}
+#contact .contactform input[type=email], #contact .contactform input[type=text] {
+    border: 1px solid #111;
+    width: 100%;
+    background: #252525;
+    padding: 11px 26px;
+    border-radius: 30px;
+}
+#contact .contactform textarea {
+    border: 1px solid #111;
+    background: #252525;
+    width: 100%;
+    padding: 12px 26px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 135px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
