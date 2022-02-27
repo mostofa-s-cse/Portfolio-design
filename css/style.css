@@ -192,6 +192,9 @@ hr.separator {
     font-size: 2rem;
     color: #FFB400;
 }
+.single-portfolio ul{
+    display: contents;
+}
 
 
 
