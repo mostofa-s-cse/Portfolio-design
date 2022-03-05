@@ -2,8 +2,7 @@ body{
     background-color: #111111;
     color: #fff;
 }
-
-#header-section{
+.header-image-box{
   padding: 4rem; 
   background: url("../images/header-bg.jpg");
   background-size: cover;
@@ -403,4 +402,3 @@ hr.separator {
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
-
