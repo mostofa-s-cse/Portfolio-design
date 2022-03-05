@@ -402,9 +402,3 @@ hr.separator {
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
-@media only screen and (max-width: 480px){
-    .header-about {
-        overflow: scroll;
-        height: 12rem;
-    }
-}
