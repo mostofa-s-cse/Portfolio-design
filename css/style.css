@@ -27,6 +27,8 @@ button.btn {
     border-radius: 26px;
     font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
 }
 button.btn:hover{
     background-color: #FFB400;
@@ -34,9 +36,9 @@ button.btn:hover{
 .button-icon {
     color: #fff;
     background-color: #FFB400;
-    padding: 1rem;
+    padding: 13px;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .title-style {
     width: 3rem;
@@ -401,4 +403,32 @@ hr.separator {
 }
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
+}
+
+@media screen and (max-width: 768px){
+    .header-image {
+        width: 13rem;
+        height: 13rem;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .header-image-box {
+        padding: 0;
+    }
+    .header-title h3 {
+        font-size: 18px;
+    }
+    .header-about p {
+        font-size: 11px !important;
+        line-height: 18px !important;
+    }
+    button.btn {
+        letter-spacing: 2px;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 480px){
+    .single-portfolio ul a {
+        font-size: 12px;
+    }
 }
