@@ -15,18 +15,18 @@
         <!-- header-section-->
     <header id="header-section">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center header-image-box">
+            <div class="col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center header-image-box">
                 <img class="header-image" src="images/mostofa.png" alt="image">
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 align-self-center text-white p-5 mt-1">
+            <div class="col-sm-12 col-md-12 col-lg-8 align-self-center text-white p-5 mt-1">
                 <div class="title-style"></div>
                 <div class="header-title">
                     <h3 style="color: #FFB400;font-weight: 700;">I'M MOSTOFA.</h3>
                     <h3>Web Designer <span style="color: #FFB400;font-weight: 700;">And</span> Developer</h3>
                 </div>
                 <div class="header-about">
-                    <p style="font-size: 16px;line-height:35px;">Hi there, <span style="color: #FFB400;font-weight: 700;">I am a Professional Web Developer And WordPress Expert.</span> I am experienced in HTML5, CSS3, Bootstrap, PHP, E-Commerce, Responsive Web Design. WordPress. Speed Optimization. I am here to provide you quality works and always try to satisfy my clients through my work. my goal is to provide high-quality solutions that correspond to the client’s requirements for 100%. Let’s get in touch & start working on your dream website! I am always focused on the objectives and on the predefined timeline, to guarantee maximum quality in the best possible time.“Your satisfaction is my pleasure”.</p>
-                    <button type="button" onclick="document.location='https://www.fiverr.com/mostofa_cse'" class="btn btn-outline-warning open-Arial-font">hire me <span class="fa fa-arrow-right button-icon"></span></button>
+                    <p style="font-size: 14px;line-height:35px;margin: 36px;margin-left: auto;">Hi there, <span style="color: #FFB400;font-weight: 700;">I am a Professional Web Developer And WordPress Expert.</span> I am experienced in HTML5, CSS3, Bootstrap, PHP, E-Commerce, Responsive Web Design. WordPress. Speed Optimization. I am here to provide you quality works and always try to satisfy my clients through my work. my goal is to provide high-quality solutions that correspond to the client’s requirements for 100%. Let’s get in touch & start working on your dream website! I am always focused on the objectives and on the predefined timeline, to guarantee maximum quality in the best possible time.“Your satisfaction is my pleasure”.</p>
+                    <button type="button" onclick="document.location='https://www.fiverr.com/mostofa_cse'" class="btn btn-outline-warning open-sans-font"style="font-size: 10px;letter-spacing: 3px;">hire me <span class="fa fa-arrow-right button-icon"></span></button>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                                             </ul>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-6">
-                                            <button type="button" onclick="document.location='https://drive.google.com/file/d/1hBtrJgeD9G0BJB0LfInMiUo2HOdz2bA5/view?usp=sharing'"  class="btn btn-outline-warning mt-4" style="font-size: 12px;">Download CV<span class="fa fa-download button-icon"></span></button>
+                                            <button type="button" onclick="document.location='https://drive.google.com/file/d/1hBtrJgeD9G0BJB0LfInMiUo2HOdz2bA5/view?usp=sharing'"  class="btn btn-outline-warning mt-4" style="font-size: 14px;">Download CV<span class="fa fa-download button-icon"></span></button>
                                         </div>
                                     </div>
                                 </div>
